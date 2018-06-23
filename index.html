@@ -15,34 +15,31 @@
 
 <body>
 
-  <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom">
+  <nav class="navbar navbar-expand-md navbar-light bg-light border-bottom">
     <a class="navbar-brand bg-info p-2 text-light" href="#">
       <h1>Christine Russell</h1>
     </a>
-    
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-        aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarItems">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="navbar-collapse collapse justify-content-stretch" id="navbarItems">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="./index.html">About
+            <span class="sr-only">(current)</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./portfolio.html">Portfolio</a>
+        </li>
 
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="./index.html">About
-              <span class="sr-only">(current)</span>
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./portfolio.html">Portfolio</a>
-          </li>
-
-          <li class="nav-item">
-            <a class="nav-link" href="./contact.html">Contact</a>
-          </li>
-        </ul>
-      
+        <li class="nav-item">
+          <a class="nav-link" href="./contact.html">Contact</a>
+        </li>
+      </ul>
     </div>
   </nav>
+
   <div class="container bg-light mt-4 border text-secondary">
     <div class="row">
       <div class="col">
@@ -70,10 +67,11 @@
       </div>
     </div>
   </div>
+
   <footer class="footer bg-dark">
-      <div class="container">
-        <span class="text-muted">Copyright @</span>
-      </div>
+    <div class="container">
+      <span class="text-muted">Copyright @</span>
+    </div>
   </footer>
 
 
